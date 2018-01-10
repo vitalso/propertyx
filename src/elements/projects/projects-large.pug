@@ -1,0 +1,58 @@
+section.projects
+	.container
+		h1 Projects Large
+		ul.filter__nav
+			li: a(href="#" , data-filter="*").active Show all
+			li: a(href="#" , data-filter=".bauhaus") Bauhaus
+			li: a(href="#" , data-filter=".classic") Classic
+			li: a(href="#" , data-filter=".modern") Modern
+			li: a(href="#" , data-filter=".private") Private
+
+		.project__area
+			.project.grid__item.bauhaus
+				.row
+					.col-md-8.order-md-4
+						.project__image
+							img(src="images/projects.jpg", alt="project")
+					.col-md-4
+						.project__describe
+							h4 22 room bauhaus
+							h2.project__title Luxury Villa Bern <span>$ 12.499.00</span>
+							.description
+								p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi optio perferendis, maiores ullam nemo cum vitae maxime, dolore. Excepturi, suscipit, vel. Nostrum reiciendis itaque...
+							a(href="#").secondary__btn.grey--color View Expose <span class='icon-Arrow-OutRight'></span>
+
+			.project.grid__item.classic
+				.row.flex-row-reverse
+					.col-md-8.order-md-4
+						.project__image
+							img(src="images/projects.jpg", alt="project")
+					.col-md-4
+						.project__describe.bg-grey
+							h4 22 room bauhaus
+							h2.project__title Luxury Villa Bern <span>$ 12.499.00</span>
+							.description
+								p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi optio perferendis, maiores ullam nemo cum vitae maxime, dolore. Excepturi, suscipit, vel. Nostrum reiciendis itaque...
+							a(href="#").secondary__btn.grey--color View Expose <span class='icon-Arrow-OutRight'></span>
+
+			.project.grid__item.modern
+				.row.align-items-center
+					.col-md-8.order-md-4
+						.project__image
+							img(src="images/projects.jpg", alt="project")
+					.col-md-4
+						.project__describe.not__bottom__border.bg-black
+							h2.project__title Luxury Villa Bern
+							.description
+								p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi optio perferendis, maiores ullam nemo cum vitae maxime, dolore. Excepturi, suscipit, vel. Nostrum reiciendis itaque...
+
+			.project.grid__item.modern
+				.row.flex-row-reverse
+					.col-md-8.order-md-4
+						.project__image
+							img(src="images/projects.jpg", alt="project")
+					.col-md-4
+						.project__describe.not__bottom__border.bg-black-hover
+							h2.project__title Luxury Villa Bern
+							.description
+								p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi optio perferendis, maiores ullam nemo cum vitae maxime, dolore. Excepturi, suscipit, vel. Nostrum reiciendis itaque...

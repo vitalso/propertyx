@@ -1,0 +1,22 @@
+section.projects__small
+	.container
+		h1 Projects Small
+		ul.filter__nav
+			li: a(href="#").active Show all
+			li: a(href="#") Bauhaus
+			li: a(href="#") Classic
+			li: a(href="#") Modern
+			li: a(href="#") Private
+
+		.row
+			- for (i = 0; i <= 5; i++)
+				.col-md-4
+					.project__small
+						.project__image
+							img(src="images/projects.jpg", alt="project")
+						.project__describe
+							h4 22 room bauhaus
+							h3.project__title.small--title Luxury Villa Bern <span>$ 4.200.000</span>
+							.description
+								p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi optio perferendis, maiores ullam nemo cum vitae maxime, dolore. Excepturi, suscipit, vel.
+							a(href="#").secondary__btn.grey--color View Expose <span class='icon-Arrow-OutRight'></span>

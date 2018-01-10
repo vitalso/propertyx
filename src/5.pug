@@ -1,0 +1,140 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible' , content='IE=edge')
+		meta(name='viewport' , content='width=device-width , initial-scale=1')
+		meta(name='description' , content='')
+		meta(name='keywords' , content='')
+		title 5
+		link(rel='icon' , href='favicon.ico' type='image/x-icon')
+		link(rel='stylesheet' , href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css' , integrity='sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M' , crossorigin='anonymous')
+		link(rel='stylesheet' , href='css/line-icons.css')
+		link(rel='stylesheet' , href='css/magnific-popup.css')
+		link(rel='stylesheet' , href='css/slick.css')
+		link(rel='stylesheet' , href='css/slick-theme.css')
+		link(rel='stylesheet' , href='css/style.css')
+		//if lt IE 9
+			script(src='https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
+			script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+	body
+
+		include elements/nav/nav-default.pug
+
+		include elements/title/title-left.pug
+
+		section.wrap__slider
+			.slider
+				img(src="images/banner.jpg", alt="banner")
+
+		include elements/nav/nav-default.pug
+
+		include elements/title/title-center.pug
+
+		section.wrap__slider
+			.slider
+				img(src="images/banner.jpg", alt="banner")
+
+		include elements/nav/nav-default.pug
+
+		include elements/title/title-right.pug
+
+		section.wrap__slider
+			.slider
+				img(src="images/banner.jpg", alt="banner")
+
+		include elements/nav/nav-default.pug
+
+		section
+			.container
+				include elements/title/title-left-border.pug
+
+				.row
+					.col-md-4
+						.defini__box
+							h4 Change your living
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+					.col-md-4
+						.defini__box
+							h4 Newest Design
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+					.col-md-4.hidden-md-down
+						.defini__box
+							h4 Environmental friendly
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+					.col-md-4.hidden-md-down
+						.defini__box
+							h4 Made of best material
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+					.col-md-4.hidden-md-down
+						.defini__box
+							h4 Newest glass technology
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+					.col-md-4.hidden-md-down
+						.defini__box
+							h4 Solar panel construction roof
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+		include elements/nav/nav-default.pug
+
+		include elements/title/title-left-vertical.pug
+
+		include elements/nav/nav-default.pug
+
+		include elements/title/title-right-vertical.pug
+
+		include elements/nav/nav-default.pug
+
+		section
+			include elements/title/title-bg-color.pug
+			.container
+				.row
+					.col-md-4
+						.defini__box
+							h4 Change your living
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+					.col-md-4
+						.defini__box
+							h4 Newest Design
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+					.col-md-4.hidden-md-down
+						.defini__box
+							h4 Environmental friendly
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+					.col-md-4.hidden-md-down
+						.defini__box
+							h4 Made of best material
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+					.col-md-4.hidden-md-down
+						.defini__box
+							h4 Newest glass technology
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+					.col-md-4.hidden-md-down
+						.defini__box
+							h4 Solar panel construction roof
+							p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus harum dolore pariatur neque quam repudiandae minus saepe omnis deserunt. Perspiciatis aut maxime voluptas porro iure doloremque magnam consequuntur non, molestiae!
+							a(href="#").secondary__btn View full list <span class='icon-Arrow-OutRight'></span>
+
+		
+		include elements/scripts.pug
